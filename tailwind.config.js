@@ -9,7 +9,7 @@ export default {
     "./src/components/content.jsx",
     "./src/components/dropdown.jsx",
     "./src/components/footer.jsx",
-    "./src/components/banner.jsx",
+    "./src/pages/about.jsx",
   ],
   theme: {
     extend: {},

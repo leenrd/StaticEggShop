@@ -18,16 +18,27 @@
     text-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
 }
 
+.head{
+    background: url(/images/pexels-jane-doan-916904.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+img{
+    display: inline-block;
+    max-width: 100%;
+}
+
 .marquee {
     display: flex;
-    background-color: #282828;
+    background-color: #000000;
     overflow: hidden;
-    padding: 1em;
+    padding: .3em;
 }
 .marquee h5 {
-    font-size: 40px;
+    font-size: 20px;
     white-space: nowrap;
-    padding: 0 6rem;
+    padding: 0 11rem;
     color: white;
     letter-spacing: 1px;
     animation: moveR 6000ms linear infinite;
@@ -51,7 +62,11 @@
 }
 
 .title{
-    background: url(../src/images/pexels-polina-tankilevitch-4110226.jpg);
+    background: url(images/pexels-polina-tankilevitch-4110226.jpg);
     background-size: cover;
     background-position: start;
+}
+
+.second{
+    margin-top: 550px;
 }
