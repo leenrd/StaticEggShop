@@ -24,6 +24,36 @@
     background-position: center;
 }
 
+.header {
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    animation: slide 1.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    -webkit-animation: slide 1.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+.sub {
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    animation: slide 2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    -webkit-animation: slide 2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+@keyframes slide {
+    to {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
+}
+
 img{
     display: inline-block;
     max-width: 100%;
