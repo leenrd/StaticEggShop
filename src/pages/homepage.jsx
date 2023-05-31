@@ -1,7 +1,13 @@
+import Hero from "../components/hero"
+import Banner from "../components/banner"
+
 
 const Homepage = () => {
   return (
-    <div>homepage</div>
+    <>
+      <Hero />
+      <Banner />
+    </>
   )
 }
 
